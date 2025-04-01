@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="?attr/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/character_details_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/placeholder"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="?attr/colorSurface"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/character_details_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:fontFamily="@font/momument_medium"
+                    android:text="Character Name"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="?attr/colorOnSurface" />
+
+                <TextView
+                    android:id="@+id/character_details_alternate_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Alternate Names: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_species"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Species: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Gender: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_house"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="House: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_date_of_birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Date of Birth: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_year_of_birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Year of Birth: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_ancestry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Ancestry: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_wizard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Wizard: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_eye_colour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Eye Color: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_hair_colour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Hair Color: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_patronus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Patronus: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_wand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Wand: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_actor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Actor: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_alternate_actors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Alternate Actors: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_alive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Alive: Unknown"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    android:id="@+id/character_details_hogwarts_student"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Hogwarts Student: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/character_details_hogwarts_staff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="Hogwarts Staff: Unknown"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button_add_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Favorite"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="?attr/colorOnSurface"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

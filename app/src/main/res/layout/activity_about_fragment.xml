@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?attr/colorSurface"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Welcome to Marauder's Pedia, your magical encyclopedia of the Wizarding World!"
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnSurface"
+        android:fontFamily="@font/momument_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="8dp"
+        android:background="?attr/colorOnSurface" />
+
+    <TextView
+        android:textColor="?attr/colorOnSurface"
+        android:text="Explore detailed entries for characters, spells, magical creatures, and Dob etc."
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/version"
+        android:text="Version 1.0.0"
+        android:textSize="16sp"
+        android:paddingVertical="12sp"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="App design and development by Kishan."
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:paddingVertical="12sp"
+        android:textColor="?attr/colorOnSurface"
+        android:fontFamily=""
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="For support, reach out to: kishangarhwal@gmail.com"
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface"
+        android:paddingVertical="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

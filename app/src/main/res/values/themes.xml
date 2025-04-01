@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MaraudersPedia" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:colorBackground">#F8F8F8</item>  <!-- Light gray -->
+        <item name="cardBackgroundColor">#FFFFFF</item>  <!-- White cards -->
+        <item name="android:textColor">#222222</item>  <!-- Dark text -->
+        <item name="android:colorAccent">#FFCC00</item>  <!-- Gold Accent -->
+    </style>
+</resources>
